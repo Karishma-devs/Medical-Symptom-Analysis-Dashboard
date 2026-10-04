@@ -1,54 +1,22 @@
-# MEDICAL CHATBOT
+# Medical Symptom Analysis Dashboard
 
+## 📊 Project Overview
+Engineered a data cleaning and extraction pipeline for raw medical text data, applying statistical metrics to identify patterns. Interpreted structured feedback to refine data quality standards, improving overall process efficiency and query response speed.
 
-## Requirements
+## 🚀 Key Features
+- Data cleaning and extraction for raw medical text
+- Statistical pattern identification
+- Quality standard refinement using feedback
+- Improved process efficiency and query response speed
+- Medical symptom classification
 
-Python 3.5 or newer.
+## 🛠️ Tools & Skills
+Python, SQL, REST APIs, Data Cleaning, Quality Control, Data Analysis
 
-Dependencies:
+## 📂 Project Structure
+- app.py - Main application
+- requirements.txt - Dependencies
 
-- Flask
-- PyTorch
-- NLTK
-- NumPy
-- Scikit-learn
-- Pandas
-- matplotlib
-
-## Install requirements
-
-Before running the application you need to install the dependencies. We recommend to use the virtual environment
-[virtualenv](https://pypi.org/project/virtualenv/) for this.
-
-Linux:
-
-```
-python3 -m venv venv
-venv/bin/activate
-pip install flask torch nltk numpy sklearn pandas matplotlib
-```
-Windows:
-
-```
-py -3 -m venv venv
-venv\Scripts\activate
-pip install flask torch nltk numpy==1.19.3 sklearn pandas matplotlib
-```
-
-
-
-In order for _nltk_ tokenization to work, the _'punkt'_ package must be downloaded. To do this, simply enter the Python shell and run the following:
-
-```python
-import nltk
-nltk.download('punkt')
-```
-
-This will install all the required dependencies needed to run the application successfully.
-
-## Run
-
-To run MedicalChatbot, `cd` into MedicalChatbot repo on your computer and run `python -m flask run`. This will run the Flask 
-server in development mode on localhost, port 5000.
-
-`* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)`
+## ▶️ How to Run
+pip install -r requirements.txt
+streamlit run app.py
